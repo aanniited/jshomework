@@ -1,0 +1,62 @@
+h1 {
+  background-color: rgb(245, 102, 6);
+  color: rgb(7, 2, 2);
+  padding: 10px;
+  text-align: center;
+   margin: 0;
+
+}
+
+h2 {
+  background-color: rgb(245, 102, 6);
+  color: rgb(7, 2, 2);
+  padding: 10px;
+  text-align: center; 
+  margin: 0;
+
+}
+
+
+p {
+
+  color: rgb(7, 2, 2);
+  padding: 20px;
+  
+
+
+}
+
+.info {
+  text-align: left;
+  color: black;
+  bottom: 30px;
+  left: 20px;
+  margin: 0px;
+  padding: 1px 0;
+}
+
+.profex {
+
+  position:relative;
+  color: black;
+  bottom:1px;
+  left: 200px; 
+
+}
+
+ul {
+ 
+  padding: 0;
+  text-align: left;
+}
+
+.Qa{
+
+   position:relative;
+  color: black;
+  bottom:1px;
+  left: 200px; 
+
+
+
+}
