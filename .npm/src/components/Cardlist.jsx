@@ -30,7 +30,7 @@ const data = [
   }
 ];
 
-// 2. კომპონენტში ვიყენებთ .map() ფუნქციას
+
 const CardList = () => {
   return (
     <div className="card-list">

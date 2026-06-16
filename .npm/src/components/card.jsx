@@ -1,18 +1,18 @@
-const Card = (props) => {
+const Card = ({name, auth, image, description, imgStyle, onPress}) => {
 
  return <div className="card" >
 
-    <h1 className="card-title">{props.name}</h1>
-    <h2>{props.auth} </h2>
+    <h1 className="card-title">{name}</h1>
+    <h2>{auth} </h2>
     <div className="img-box">
 
-    <img src={props.image} style={props.imgStyle}/>
+    <img src={image} style={imgStyle}/>
     
      </div>
 
 
-    <p className="card-desc">{props.description}</p>
-    <button className="btn" onClick={props.onPress} >ღილაკი</button>
+    <p className="card-desc">{description}</p>
+    <button className="btn" onClick={ onPress} >ღილაკი</button>
     
  </div>
 
