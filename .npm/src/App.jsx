@@ -1,13 +1,13 @@
-import Cardlist from "./components/cardlist"
-import './App.css'
 
-function App () {
+import TodoApp from './components/ToDoApp';
+
+
+function App() {
   return (
-    <div style={{ width: '100%' }}>
-      <h1>წიგნების სია</h1>
-      <Cardlist/>
+    <div className="App">
+      <TodoApp />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
